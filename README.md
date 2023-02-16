@@ -64,17 +64,3 @@ optional arguments:
                         Machine precision
   --debug               Only use 1000 examples for debugging
 ```
-
-
-## New models
-
-To add a new (complex/hyperbolic/Euclidean) Knowledge Graph embedding model, implement the corresponding query embedding under models/, e.g.:
-
-```
-def get_queries(self, queries):
-    head_e = self.entity(queries[:, 0])
-    rel_e = self.rel(queries[:, 1])
-    lhs_e = ### Do something here ###
-    lhs_biases = self.bh(queries[:, 0])
-    return lhs_e, lhs_biases
-```
