@@ -1,21 +1,10 @@
 # TDN-Triplet-Distributor-Network-for-Knowledge-Graph-Completion
-## Installation
-
-First, create a python environment and install dependencies:
-
-```bash
-virtualenv -p python3.7 hyp_kg_env
-source hyp_kg_env/bin/activate
-pip install -r requirements.txt
-```
-
-Then, set environment variables and activate your environment:
+First, install dependencies:
+set environment variables and activate your environment:
 
 ```bash
 source set_env.sh
 ```
-
-## Usage
 
 To train and evaluate a KG embedding model for the link prediction task, use the run.py script:
 
