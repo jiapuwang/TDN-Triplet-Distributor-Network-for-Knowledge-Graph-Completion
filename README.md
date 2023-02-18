@@ -1,5 +1,5 @@
 # TDN-Triplet-Distributor-Network-for-Knowledge-Graph-Completion
-First, install dependencies:
+
 set environment variables and activate your environment:
 
 ```bash
