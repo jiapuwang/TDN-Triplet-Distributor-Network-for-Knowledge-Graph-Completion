@@ -1,3 +1,0 @@
-This dataset comes from the Freebase dumps under the Creative Commons Attribution (aka CC-BY) (http://creativecommons.org/licenses/by/2.5/).
-The original paper is titled, “Translating Embeddings for Modeling Multi-relational Data,” by Antoine Bordes and Nicolas Usunier and Alberto Garcia-Duran and Jason Weston and Oksana Yakhnenko; See https://everest.hds.utc.fr/doku.php?id=en:transe
-
