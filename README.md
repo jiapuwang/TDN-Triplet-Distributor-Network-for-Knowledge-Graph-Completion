@@ -9,15 +9,7 @@ source set_env.sh
 To train and evaluate a KG embedding model for the link prediction task, use the run.py script:
 
 ```bash
-usage: run.py [-h] [--dataset {FB15K,WN,Kinship,UMLS}]
-              [--model {InceptE,ComplEx,RotatE}] [--regularizer {N3,N2}] [--reg REG]
-              [--optimizer {Adagrad,Adam,SGD,SparseAdam,RSGD,RAdam}]
-              [--max_epochs MAX_EPOCHS] [--patience PATIENCE] [--valid VALID]
-              [--rank RANK] [--batch_size BATCH_SIZE]
-              [--neg_sample_size NEG_SAMPLE_SIZE] [--dropout DROPOUT]
-              [--init_size INIT_SIZE] [--learning_rate LEARNING_RATE]
-              [--gamma GAMMA] [--bias {constant,learn,none}]
-              [--dtype {single,double}] [--debug]
+usage: run.py
 
 Knowledge Graph Embedding
 
