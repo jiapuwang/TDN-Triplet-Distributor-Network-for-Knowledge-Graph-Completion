@@ -9,7 +9,7 @@ source set_env.sh
 To train and evaluate a KG embedding model for the link prediction task, use the run.py script:
 
 ```bash
-usage: run.py
+usage: python run.py
 
 Knowledge Graph Embedding
 
