@@ -10,6 +10,7 @@ To train and evaluate a KG embedding model for the link prediction task, use the
 
 ```bash
 usage: python run.py
+```
 
 Knowledge Graph Embedding
 
