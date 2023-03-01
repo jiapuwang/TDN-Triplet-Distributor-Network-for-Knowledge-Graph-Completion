@@ -14,6 +14,7 @@ usage: python run.py
 
 Knowledge Graph Embedding
 
+```
 optional arguments:
   -h, --help            show this help message and exit
   --dataset {FB15K,WN,Kinship,UMLS}
